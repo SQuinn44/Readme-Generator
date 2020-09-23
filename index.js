@@ -82,7 +82,12 @@ async function init() {
         else {
             badge = 'No License Choice Selected'
         }
-        
+        licenseTxt = await readFile('license' + answers.license + '.txt', 'utf8');
+        const README = generateText(answers,badge);
+        await writeToFole("README.md", README);
+        console.log("README file successfully generated");
+    }   catch(err) {
+        console.log(err);
     }
 }
 
