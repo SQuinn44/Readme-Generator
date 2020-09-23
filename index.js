@@ -12,48 +12,48 @@ const questions = [
     {
         type: "input",
         message: "GitHub username:",
-        name: "UserName",
+        name: "username",
     },
     {
         type: "input",
         message: "Email Address:",
-        name: "Email",
+        name: "email",
     },
     {
         type: "input",
         message: "Project Title:",
-        name: "Title",
+        name: "title",
     },
     {
         type: "input",
         message: "Project Description:",
-        name: "Description",
+        name: "description",
     },
     {
         type: "input",
         message: "Installation Instructions:",
-        name: "Installation",
+        name: "installation",
     },
     {
         type: "input",
         message: "Usage:",
-        name: "Usage",
+        name: "usage",
     },
     {
         type: "list",
         message: "License: ",
-        name: "License",
+        name: "license",
         choices: ['MIT','GNU','BSD']
     },
     {
         type: "input",
         message: "Contributors:",
-        name: "Contributors"
+        name: "contributors"
     },
     {
         type: "input",
         message: "Tests:",
-        name: "Tests"
+        name: "tests"
     }
 ]
 
@@ -66,13 +66,24 @@ function getUserData() {
 //license badge choices
 var licenseTxt;
 var badge;
-
 async function init() {
-    try{
+    try {
         const answers = await getUserData(questions);
     
         if (answers.license === "BSD"){
-            badge = 
+            badge = '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
         }
+        else if (answers.license === "GNU"){
+            badge = badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+        }
+        else if (answers.license === "MIT"){
+            badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)'
+        }
+        else {
+            badge = 'No License Choice Selected'
+        }
+        
     }
 }
+
+
