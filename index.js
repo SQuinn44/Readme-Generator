@@ -62,3 +62,17 @@ function getUserData() {
     return inquirer.prompt(questions)
 }
 
+
+//license badge choices
+var licenseTxt;
+var badge;
+
+async function init() {
+    try{
+        const answers = await getUserData(questions);
+    
+        if (answers.license === "BSD"){
+            badge = 
+        }
+    }
+}
