@@ -1,34 +1,40 @@
 
-    
-   ##Title README Generator
-   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  # Title README Generator
+ [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-    # Description
-    Create a functional README file within a command line app
 
-    # Table of Contents
-    - [Description](#Description)
-    - [Installation-Instructions](#Installation-Instructions)
-    - [Contribution-Information](#Contribution-Information)
-    - [Usage-Information](#Usage-Information)
-    - [Testing-Instructions](#Testing-Instructions)
-    - [Feedback](#Feedback)
-    - [License](#License)
+  ## Description
+  Create a functional README file within a command line app
 
-    ## Installation-Instructions
-    Download and unzip the folder. Open the terminal within the folder's directory then install NPM. Install the required modules needed to run the app (fs, util, inquirer). To run the application type "node index" in the command line. 
-    ## Usage-Information
-    This is used to create README files
-    ## Contribution-Information
-    undefined
-    ## Testing-Instructions
-    Test to make sure all three license files work.
-    ## Feedback 
-    For questions or information about this README generator, I can be reached at sarahquinnphotography@gmail.com 
+  # Table of Contents
+  - [Description](#Description)
+  - [Installation-Instructions](#Installation-Instructions)
+  - [Contribution-Information](#Contribution-Information)
+  - [Usage-Information](#Usage-Information)
+  - [Testing-Instructions](#Testing-Instructions)
+  - [Feedback](#Feedback)
+  - [License](#License)
+
+ [![README GEN DEMO](./assets/preview.PNG)](https://drive.google.c")
+  
+  ## Installation-Instructions
+   Download and unzip the folder. Open the terminal within the folder's directory then install NPM. Install the required modules needed to run the app (fs, util, inquirer). To run the application type "node index" in the command line.
+
+  ## Usage-Information
+  This is used to create README files
+
+  ## Contribution-Information
+ Sarah Quinn
+
+  ## Testing-Instructions
+   Test to make sure all three license files work.
+
+  ## Feedback 
+ For questions or information about this README generator, I can be reached at sarahquinnphotography@gmail.com 
     Find me on GitHub here: https://www.github.com/SQuinn44
-    
-    ## License
-    Copyright (c) [year] [fullname]
+  
+  ## License
+  Copyright (c) 2020 Sarah Quinn
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
