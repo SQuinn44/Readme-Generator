@@ -84,7 +84,7 @@ async function init() {
         }
         licenseTxt = await readFile('license' + answers.license + '.txt', 'utf8');
         const README = generateText(answers,badge);
-        await writeToFole("README.md", README);
+        await writeToFile("README.md", README);
         console.log("README file successfully generated");
     }   catch(err) {
         console.log(err);
