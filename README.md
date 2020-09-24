@@ -1,13 +1,11 @@
 
     
-   Title README Generator
+   ##Title README Generator
    [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-   
-  ===========================================
+
     # Description
     Create a functional README file within a command line app
-    
-  ===========================================
+
     # Table of Contents
     - [Description](#Description)
     - [Installation-Instructions](#Installation-Instructions)
@@ -16,8 +14,7 @@
     - [Testing-Instructions](#Testing-Instructions)
     - [Feedback](#Feedback)
     - [License](#License)
-    
-  ===========================================
+
     ## Installation-Instructions
     Download and unzip the folder. Open the terminal within the folder's directory then install NPM. Install the required modules needed to run the app (fs, util, inquirer). To run the application type "node index" in the command line. 
     ## Usage-Information
