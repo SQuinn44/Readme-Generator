@@ -1,0 +1,9 @@
+{
+    "name": "testreadmegenerator",
+    "version": "1.0",
+    "description": "Generate a README File",
+    "main": "index.js",
+    "dependencies": {
+        "inquirer": "7.3.3"
+    },
+    "devDependencies": {},
