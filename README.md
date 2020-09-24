@@ -15,7 +15,7 @@
   - [Feedback](#Feedback)
   - [License](#License)
 
- [![README GEN DEMO](./assets/preview.PNG)](https://drive.google.c")
+ [![README GEN DEMO](./assets/screenshot.PNG)](https://drive.google.c")
   
   ## Installation-Instructions
    Download and unzip the folder. Open the terminal within the folder's directory then install NPM. Install the required modules needed to run the app (fs, util, inquirer). To run the application type "node index" in the command line.
