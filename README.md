@@ -1,13 +1,14 @@
 
-    # Title README Generator
+    
+   Title README Generator
    [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
    
   ===========================================
-    ## Description
+    # Description
     Create a functional README file within a command line app
     
   ===========================================
-    ## Table of Contents
+    # Table of Contents
     - [Description](#Description)
     - [Installation-Instructions](#Installation-Instructions)
     - [Contribution-Information](#Contribution-Information)
