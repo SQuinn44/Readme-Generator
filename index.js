@@ -1,11 +1,11 @@
-//const required to run
+;// required to run
 const inquirer = require("inquirer");
-const generatorMarkdown = require("./generateMarkdown")
+const util = require("util");
 const fs = require("fs");
 
 //write to a file
 const readFile = util.promisify(fs.readFile);
-const writeToFole = util.promisify(fs.writeFile);
+const writeToFile = util.promisify(fs.writeFile);
 
 //User Questions for ReadMe
 const questions = [
@@ -62,6 +62,40 @@ function getUserData() {
     return inquirer.prompt(questions)
 }
 
+//create README text 
+function generateText(answers,badge) {
+    return `
+    # Title ${answers.title}
+   ${badge}
+  ===========================================
+    ## Description
+    ${answers.description}
+  ===========================================
+    ## Table of Contents
+    - [Description](#Description)
+    - [Installation-Instructions](#Installation-Instructions)
+    - [Contribution-Guidelines](#Contribution-Guidelines)
+    - [Usage-Information](#Usage-Information)
+    - [Testing-Instructions](#Testing-Instructions)
+    - [Feedback](#Feedback)
+    - [License](#License)
+  ===========================================
+    ## Installation-Instructions
+    ${answers.installation}
+    ## Usage-Information
+    ${answers.usage}
+    ## Contribution-Guidelines
+    ${answers.contribution}
+    ## Testing-Instructions
+    ${answers.tests}
+    ## Feedback 
+    For questions or information about this README generator, I can be reached at ${answers.email} 
+    Find me on GitHub here: https://www.github.com/${answers.username}
+    
+    ## License
+    ${licenseTxt}
+  `
+  }
 
 //license badge choices
 var licenseTxt;
