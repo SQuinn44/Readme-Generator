@@ -74,7 +74,7 @@ function generateText(answers,badge) {
     ## Table of Contents
     - [Description](#Description)
     - [Installation-Instructions](#Installation-Instructions)
-    - [Contribution-Guidelines](#Contribution-Guidelines)
+    - [Contribution-Information](#Contribution-Information)
     - [Usage-Information](#Usage-Information)
     - [Testing-Instructions](#Testing-Instructions)
     - [Feedback](#Feedback)
@@ -84,7 +84,7 @@ function generateText(answers,badge) {
     ${answers.installation}
     ## Usage-Information
     ${answers.usage}
-    ## Contribution-Guidelines
+    ## Contribution-Information
     ${answers.contribution}
     ## Testing-Instructions
     ${answers.tests}
@@ -125,4 +125,4 @@ async function init() {
     }
 }
 
-
+init ();
